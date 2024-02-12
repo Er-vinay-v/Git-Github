@@ -1,0 +1,34 @@
+﻿Assignment solution 
+1.How to check if git is available on your system?
+Ans: first open Git Bash →git - - version.
+
+
+2.How to initialize a new Git repository?
+Ans: Using git command → git init  javaGitDemo →cd javaGitDemo.
+
+
+3.How to tell git about your name and email?
+Ans: Open Git Bash →git config - -global user.name “Vinay verma”.
+         Git config - -global user.email “vinay.verma2002@gmail.com”.
+
+
+4.How to add a file to the staging area?
+Ans: git add . → add all the file at a time
+         Git add <file> →single file .
+
+
+5.How to remove a file from the staging area?
+Ana:git reset HEAD -- <file>.
+
+
+6.How to make a commit?
+Ans: git commit -m “first commit”
+
+
+7.How to send your changes to a remote repository?
+Ans: git push
+
+
+8.What is the difference between clone and pull?
+Ans: Clone → clone is a git command which is used to create a copy of a remote file and save from a local computer.
+git Pull → l W0en you want to make changes or updates done by another developer/team member on a git repository, you have to use git pull.
